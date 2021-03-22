@@ -13,7 +13,5 @@ int main (){
 
     admin.inicio();
 
-    system("pause");
-
     return 0;
 }

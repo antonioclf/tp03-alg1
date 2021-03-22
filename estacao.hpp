@@ -1,16 +1,16 @@
-#ifndef ESTACAO_HPP
-#define ESTACAO_HPP
+#ifndef STATION
+#define STATION
 
-class Estacao {
+class Estacao{
     private:
         int tempo;
         int custo;
-    
+
     public:
         Estacao(){};
         Estacao(int tempo, int custo);
-        double getCusto (double desconto);
-        int getTempo ();
+        int get_tempo();
+        double get_preco(double desconto);
 };
 
 #endif
